@@ -4,15 +4,12 @@
 
 int main()
 {
-    int nbr,temp;
-
-    printf("Entrez votre nombre \n");
-    scanf("%d",&nbr);
-    nbr[0] = temp;
-    temp = nbr[2];
-    nbr[0] = temp;
-
-    printf("le ruseltat est :%d",nbr);
-
+   char car[3];
+   printf("Entrez les 3 caracters :/n");
+   scanf("%s",&car);
+   char N = car[0];
+   car[0]=car[2];
+   car[2]=N;
+    printf("%.3s",car);
     return 0;
 }
